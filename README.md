@@ -26,17 +26,15 @@ Assurez-vous d'avoir un compilateur C installé sur votre système pour compiler
 Pour compiler le programme, naviguez jusqu'au répertoire contenant le code source et exécutez la commande suivante :
 
 ```bash
-gcc edu_manager.c -o edu_manager
+gcc -o EduManager gestion_etudiant.c main.c
 ```
-
-Remplacez `edu_manager.c` par le nom de votre fichier source principal.
 
 ### Exécution
 
 Après la compilation, exécutez le programme en utilisant la commande :
 
 ```bash
-./edu_manager
+./EduManager
 ```
 
 ## Menu
