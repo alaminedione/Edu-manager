@@ -1,6 +1,6 @@
 @echo on
 
-gcc -o application_v_2 gestion_etudiant.c main.c
+gcc -o EduManager gestion_etudiant.c main.c
 
 @echo off
 
