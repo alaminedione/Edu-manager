@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc -o EduManagergestion_etudiant.c main.c
+gcc -o EduManager gestion_etudiant.c main.c
 
 if [ $? -eq 0 ]; then
     echo "Compilation réussie !"
